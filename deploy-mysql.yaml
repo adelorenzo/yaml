@@ -56,7 +56,7 @@ metadata:
   labels:
     type: local
 spec:
-  storageClassName: microk8s-storage
+  storageClassName: openebs-hostpath
   capacity:
     storage: 5Gi
   accessModes:
